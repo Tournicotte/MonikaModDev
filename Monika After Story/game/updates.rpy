@@ -374,6 +374,7 @@ label v0_3_1(version=version): # 0.3.1
 
 # non generic updates go here
 
+# 0.12.18
 label v0_12_18(version="v0_12_18"):
     python hide:
         # Fix pm var
@@ -399,12 +400,6 @@ label v0_12_18(version="v0_12_18"):
         ):
             mas_unlockEVL("monika_affection_nickname", "EVE")
 
-    return
-
-# 0.12.17
-label v0_12_17(version="v0_12_17"):
-    python hide:
-        pass
     return
 
 # 0.12.13
